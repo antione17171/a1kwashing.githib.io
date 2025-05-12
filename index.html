@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A&K Washing | Book Your Appointment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    section, main {
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    input[type="submit"] {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff4d4d;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    A&K Washing - Book Your Appointment
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <p><strong>🚗 Car Washing:</strong> $30 (Depends on the car)</p>
+    <p><strong>💦 Power Washing:</strong> Starting at $50</p>
+    <p><strong>🗑️ Garbage Can Washing:</strong> Starting at $20</p>
+    <p><em>Run by a hard-working local duo. Fast. Friendly. Affordable.</em></p>
+  </section>
+
+  <main>
+    <h2>Book Now</h2>
+    <form action="https://formsubmit.co/a1kwashing@gmail.com" method="POST">
+      <!-- FormSubmit settings -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://thankyou.page/"> <!-- optional -->
+
+      <!-- User Input -->
+      <input type="text" name="date" placeholder="Preferred Date (Required)" required>
+      <input type="text" name="name" placeholder="Your Name (Optional)">
+      <input type="email" name="email" placeholder="Your Email (Required)" required>
+      <input type="text" name="address" placeholder="Service Address (Required)" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    Having Trouble? Email <a href="mailto:a1kwashing@gmail.com">a1kwashing@gmail.com</a>
+  </footer>
+
+</body>
+</html>
